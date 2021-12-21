@@ -24,7 +24,7 @@ Este projeto se trata de uma carteira digital que seu principal objetivo
 http://localhost:8080/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config#/
 
 #### Diagrama relacional das tabelas:
-![](src/main/resources/img/WhatsApp Image 2021-12-20 at 21.33.39.jpeg)
+https://drive.google.com/file/d/1zk6qWY4bErgD_F6Dj1XB7FMQheGpUh8b/view?usp=sharing
 
 #### Arquitetura de intregração dos microsserviços:
 ![](src/main/resources/img/WhatsApp Image 2021-12-20 at 21.42.33.jpeg)
