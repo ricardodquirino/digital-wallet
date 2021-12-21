@@ -3,23 +3,23 @@
 Este projeto se trata de uma carteira digital que seu principal objetivo
 é armazenar as transações realizadas pelos clientes.
 
-## O que precisa para rodar:
+### O que precisa para rodar:
 * java 11
 * lombok
 * maven
 * Docker 20.10.10
 * Docker-Compose 1.21.2
 
-###Baixar codigo fonte:
+### Baixar codigo fonte:
 ```
     $ git clone https://github.com/ricardodquirino/digital-wallet.git
 ```
-####Subir o banco local:
+### Subir o banco local:
 * Executar o comando abaixo na raiz do projeto
 ```
     $  docker-compose up postgres-wallet
 ```
-###Criar banco local:
+### Criar banco local:
 * Após subir o servidor, deve ser criado um banco de dados dbWallet  
 ![WhatsApp Image 2021-12-21 at 06 26 29](https://user-images.githubusercontent.com/90811094/146905878-38a9f02b-213a-4eb7-b506-0b221e6d54de.jpeg)
 
