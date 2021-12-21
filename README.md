@@ -3,7 +3,7 @@
 Este projeto se trata de uma carteira digital que seu principal objetivo
 é armazenar as transações realizadas pelos clientes.
 
-##O que precisa para rodar:
+## O que precisa para rodar:
 * java 11
 * lombok
 * maven
