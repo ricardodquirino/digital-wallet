@@ -20,6 +20,7 @@ Este projeto se trata de uma carteira digital que seu principal objetivo
     $  docker-compose up postgres-wallet
 ```
 * Após subir a aplicação basta acessar o link para ter acesso ao swagger  
+![WhatsApp Image 2021-12-20 at 21 47 32](https://user-images.githubusercontent.com/90811094/146858737-adb69d2f-4ad5-4797-883e-d73013f64300.jpeg)
 
 http://localhost:8080/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config#/
 
