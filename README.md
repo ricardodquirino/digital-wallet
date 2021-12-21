@@ -20,15 +20,18 @@ Este projeto se trata de uma carteira digital que seu principal objetivo
     $  docker-compose up postgres-wallet
 ```
 * Após subir a aplicação basta acessar o link para ter acesso ao swagger  
-![WhatsApp Image 2021-12-20 at 21 47 32](https://user-images.githubusercontent.com/90811094/146858737-adb69d2f-4ad5-4797-883e-d73013f64300.jpeg)
 
 http://localhost:8080/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config#/
 
 #### Diagrama relacional das tabelas:
-https://drive.google.com/file/d/1zk6qWY4bErgD_F6Dj1XB7FMQheGpUh8b/view?usp=sharing
+
+![WhatsApp Image 2021-12-20 at 21 33 39](https://user-images.githubusercontent.com/90811094/146858829-ec912f4e-f4a8-435a-b98d-b5db4dcbee0f.jpeg)
+
 
 #### Arquitetura de intregração dos microsserviços:
-![](src/main/resources/img/WhatsApp Image 2021-12-20 at 21.42.33.jpeg)
+![WhatsApp Image 2021-12-20 at 21 42 33](https://user-images.githubusercontent.com/90811094/146858855-440d18f1-5a9a-47c4-bf38-4c1ffa86541d.jpeg)
+
 
 #### Swagger:
-![](src/main/resources/img/WhatsApp Image 2021-12-20 at 21.47.32.jpeg)
+![WhatsApp Image 2021-12-20 at 21 47 32](https://user-images.githubusercontent.com/90811094/146858862-a37e1d21-a0b0-490c-9db2-35a4d008d00e.jpeg)
+
