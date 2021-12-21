@@ -20,7 +20,7 @@ Este projeto se trata de uma carteira digital que seu principal objetivo
     $  docker-compose up postgres-wallet
 ```
 ####Criar banco local:
-* Após subir o servidor, deve ser criado dbWallet  
+* Após subir o servidor, deve ser criado um banco de dados dbWallet  
 ![WhatsApp Image 2021-12-21 at 06 26 29](https://user-images.githubusercontent.com/90811094/146905878-38a9f02b-213a-4eb7-b506-0b221e6d54de.jpeg)
 
 * Após subir a aplicação basta acessar o link para ter acesso ao swagger  
