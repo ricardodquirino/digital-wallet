@@ -1,0 +1,29 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    ports:
+      - '8080:8080'
+    networks:
+      - backend
+
+  postgres-wallet:
+    container_name: postgres
+    image: postgres:13.3-alpine
+    environment:
+      - POSTGRES_DB=dbWallet
+      - POSTGRES_USER=usrWallet
+      - POSTGRES_PASSWORD=usrWallet
+    ports:
+      - '5432:5432'
+    networks:
+      - backend
+    volumes:
+      - pg-data-wallet:/var/lib/postgresql/data
+
+networks:
+  backend:
+
+volumes:
+  pg-data-wallet:

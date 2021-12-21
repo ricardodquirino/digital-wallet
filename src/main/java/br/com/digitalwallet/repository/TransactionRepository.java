@@ -1,0 +1,8 @@
+package br.com.digitalwallet.repository;
+
+import br.com.digitalwallet.model.Transaction;
+import org.springframework.data.repository.CrudRepository;
+
+public interface TransactionRepository extends CrudRepository<Transaction, Long> {
+
+}
